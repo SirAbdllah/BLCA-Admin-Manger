@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>BLCA.Admin.Core</AssemblyName><RootNamespace>BLCA.Admin</RootNamespace>
+    <TargetFramework>net8.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable>
+    <Version>1.1.4</Version><AssemblyVersion>1.1.4.0</AssemblyVersion><FileVersion>1.1.4.0</FileVersion>
+    <Company>BLCA Development Team</Company><Authors>BLCA Development Team</Authors>
+    <Product>BLCA Admin Manger</Product>
+  </PropertyGroup>
+</Project>

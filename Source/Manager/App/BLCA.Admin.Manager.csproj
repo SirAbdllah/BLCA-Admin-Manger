@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup>
+  <OutputType>WinExe</OutputType><TargetFramework>net8.0-windows</TargetFramework><UseWindowsForms>true</UseWindowsForms>
+  <ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable>
+  <AssemblyName>BLCA Admin Manger</AssemblyName><RootNamespace>BLCA.Admin.Manager</RootNamespace>
+  <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+  <ApplicationIcon>Assets/BLCA.ico</ApplicationIcon>
+  <Version>1.1.4</Version><AssemblyVersion>1.1.4.0</AssemblyVersion><FileVersion>1.1.4.0</FileVersion>
+  <Company>BLCA Development Team</Company><Authors>BLCA Development Team</Authors>
+  <Product>BLCA Admin Manger</Product>
+ </PropertyGroup>
+ <ItemGroup><ProjectReference Include="../Core/BLCA.Admin.Core.csproj" /></ItemGroup>
+ <ItemGroup>
+  <EmbeddedResource Include="Assets/BLCA_Logo.png" LogicalName="BLCA.Admin.Manager.Assets.BLCA_Logo.png" />
+ </ItemGroup>
+</Project>
